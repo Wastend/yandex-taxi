@@ -1,12 +1,11 @@
-import { Avatar, Box, List, ListItem, ListItemAvatar, ListItemText, Typography } from '@mui/material'
+import { Box, List, ListItem, ListItemAvatar, ListItemText, Typography } from '@mui/material'
 import React from 'react'
-import { AppButton } from '../common/StyledComponents'
 import women from '../source/women.png'
 import { CalendarMonth, AccountBalanceWallet, Build } from '@mui/icons-material';
 
 const Privileges = () => {
     return (
-        <Box sx={{ display: 'flex', flexDirection: 'row', width: '100%', m:'8rem 0 8rem 0' }}>
+        <Box id="privilege" sx={{ display: 'flex', flexDirection: 'row', width: '100%', m:'8rem 0 8rem 0' }}>
             <Box sx={{
                 display: 'flex',
                 alignItems: 'center',
@@ -15,7 +14,6 @@ const Privileges = () => {
                 height: '35vw',
                 width: '45%',
                 backgroundColor: '#222222',
-
             }}>
                 <Typography sx={{ fontSize: '2rem', fontWeight: '600', color: 'white', m:'0 12rem 2rem 0' }}>
                     Работа в удовольствие

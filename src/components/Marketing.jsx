@@ -5,7 +5,7 @@ import men from '../source/men.png'
 
 const Marketing = () => {
     return (
-        <Box sx={{ display: 'flex', flexDirection: 'row', width:'100%' }}>
+        <Box id='reviews' sx={{ display: 'flex', flexDirection: 'row', width:'100%' }}>
             <Box sx={{
                 display: 'flex',
                 alignItems: 'center',

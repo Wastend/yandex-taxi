@@ -6,7 +6,7 @@ import React from 'react'
 
 const Mobile = () => {
     return (
-        <Box sx={{ display: 'flex', flexDirection: 'row', width: '100%', mb: '3rem' }}>
+        <Box id='app' sx={{ display: 'flex', flexDirection: 'row', width: '100%', mb: '3rem' }}>
             <Box sx={{
                 display: 'flex',
                 flexDirection: 'column',

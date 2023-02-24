@@ -3,7 +3,7 @@ import React from 'react'
 
 const StartWork = () => {
     return (
-        <Box sx={{ width: '100%' }}>
+        <Box id="startWork" sx={{ width: '100%' }}>
             <Typography sx={{ margin: '10rem 0 3rem 10vw', fontWeight: 'bold' }} variant="h4">Выберите автомобиль</Typography>
             <Box sx={{display:'flex', flexDirection:'row', justifyContent:'space-between', margin:'0 10vw', gap:'1rem'}}>
                 <Box>

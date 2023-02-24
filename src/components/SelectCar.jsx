@@ -8,7 +8,7 @@ import { AppButton } from '../common/StyledComponents'
 
 const SelectCar = () => {
     return (
-        <Box>
+        <Box id='selectCar'>
             <Typography sx={{ margin: '5rem 0 5rem 10vw', fontWeight: 'bold' }} variant="h4">Выберите автомобиль</Typography>
             <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', margin: '0 6.5rem 1rem 6.5rem' }}>
                 
