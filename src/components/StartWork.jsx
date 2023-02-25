@@ -1,4 +1,4 @@
-import { Typography, Box } from '@mui/material'
+import { Typography, Box, Link } from '@mui/material'
 import React from 'react'
 
 const StartWork = () => {
@@ -9,16 +9,16 @@ const StartWork = () => {
                 <Box>
                     <Box sx={{display:'flex', flexDirection:'row', mb:'2rem'}}>
                         <Typography sx={{backgroundColor:'#FFDF39', fontWeight: 'bold', fontSize:'1.2rem'}}>1.</Typography>
-                        <Typography sx={{fontWeight: 'bold', fontSize:'1.2rem', textDecoration: 'underline'}}>Оставьте заявку</Typography>
-                        <Typography sx={{fontWeight: 'bold', fontSize:'1.2rem'}}>&nbsp;на сайте</Typography>
+                        <Link href="#request" sx={{fontWeight: 'bold', fontSize:'1.2rem', textDecoration: 'underline', color:'black'}}>Оставьте заявку</Link>
+                        <Link href="#request" sx={{fontWeight: 'bold', fontSize:'1.2rem', textDecoration: 'none', color:'black'}}>&nbsp;на сайте</Link>
                     </Box>
                     <Typography>мы свяжемся с вами для уточнения<br/> деталей</Typography>
                 </Box>
                 <Box>
                     <Box sx={{display:'flex', flexDirection:'row', mb:'2rem'}}>
                         <Typography sx={{backgroundColor:'#FFDF39', fontWeight: 'bold', fontSize:'1.2rem'}}>2.</Typography>
-                        <Typography sx={{fontWeight: 'bold', fontSize:'1.2rem', textDecoration: 'underline'}}>Скачайте</Typography>
-                        <Typography sx={{fontWeight: 'bold', fontSize:'1.2rem'}}>&nbsp;приложение</Typography>
+                        <Link href="#app" sx={{fontWeight: 'bold', fontSize:'1.2rem', textDecoration: 'underline', color:'black'}}>Скачайте</Link>
+                        <Link href="#app" sx={{fontWeight: 'bold', fontSize:'1.2rem', textDecoration: 'none', color:'black'}}>&nbsp;приложение</Link>
                     </Box>
                     <Typography>для удобного вывода средств</Typography>
                 </Box>

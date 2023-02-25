@@ -47,7 +47,7 @@ const Mobile = () => {
                     display: 'flex',
                     alignItems: 'center',
                     height: '41.7vh',
-                    width: '55%',
+                    width: '55vw',
                     backgroundColor: 'rgba(0,0,0,0.9)',
                     backgroundImage: `url(${backMobile})`,
                     WebkitBackgroundSize: '100% 40vh',

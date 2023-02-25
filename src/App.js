@@ -7,7 +7,7 @@ import StartWork from "./components/StartWork";
 import Mobile from "./components/Mobile";
 import RequestContact from "./components/RequestContact";
 import FormApplication from "./components/FormApplication";
-import Footer from "./components/Footer";
+import Footer from "./common/Footer";
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import { Box, Typography, Button, Link } from '@mui/material'
+import { Box, Typography, Link } from '@mui/material'
 import logo from '../source/yandex_taxi_logo.svg'
 import React from 'react'
 
@@ -22,7 +22,7 @@ const Header = () => {
 
                 <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <Typography sx={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: '1.1rem' }}>8 (3812) 49-46-45</Typography>
-                    <Button variant='text' sx={{ fontSize: '0.6rem', color: '#8B8B8B', textDecoration: 'underline', '&:hover':{color:'black'} }}>заказать звонок</Button>
+                    <Link href="#request" variant='text' sx={{ fontSize: '0.9rem', color: '#8B8B8B', textDecoration: 'underline', '&:hover':{color:'black'} }}>заказать звонок</Link>
                 </Box>
             </Box>
         </Box>

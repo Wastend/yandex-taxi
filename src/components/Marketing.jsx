@@ -33,7 +33,7 @@ const Marketing = () => {
                         </Typography>
                     </Box>
 
-                    <AppButton sx={{width:'65%'}} variant="contained">
+                    <AppButton LinkComponent="a" href="#request" sx={{width:'12vw', height:'4vh'}} variant="contained">
                         Заполнить анкету
                     </AppButton>
 
