@@ -4,4 +4,4 @@ The Yandex taxi website, which allows the user to get acquainted with informatio
 ### Start page
 ![Start page](https://github.com/Wastend/yandex-taxi/blob/master/images/start_page.png)
 ### Advantages
-![Start page](https://github.com/Wastend/yandex-taxi/blob/master/images/advantages.png)
+![Advantages](https://github.com/Wastend/yandex-taxi/blob/master/images/advantages.png)
